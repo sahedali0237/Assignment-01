@@ -59,3 +59,29 @@ body {
 }
 
 /* =========common btn=========  */
+#hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/banner.jpg );
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    object-fit: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_text {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    text-align: center;
+    
+}
+.hero_text h1 {
+    color: white;
+}
+
+.info_p {
+    color: #b8b4b4fb;
+}
