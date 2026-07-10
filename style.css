@@ -59,6 +59,8 @@ body {
 }
 
 /* =========common btn=========  */
+
+ /* =========hero start========= */
 .hero {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -93,7 +95,10 @@ body {
 .hero_btn {
     padding-top: 200px;
 }
+/* =========hero end========= */
 
+
+/* =========speaker start========= */
 #card_container {
     padding: 80px 8%;
     background-color: #fff;
@@ -144,7 +149,9 @@ h3 {
 .card_p {
     color: #1c4ed9;
 }
+/* =========speaker end=========  */
 
+/* =========pricing start========= */
 #price_card {
     padding: 30px 8%;
 }
@@ -230,3 +237,170 @@ h1 {
     color: #0D1B2A;
     border: 1px solid #0D1B2A;
 }
+/* =========pricing end========= */
+
+/* ========= ChatGpt star========= */
+.ChatGpt{
+    background-color:#0b1020;
+    color: white;
+    padding: 25px 0px;
+
+}
+.featured-session{
+    width:80%;
+    margin:100px auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:80px;
+
+}
+
+.session-content{
+
+    width:50%;
+
+}
+
+.tag{
+
+    display:inline-block;
+    padding:8px 18px;
+    background:#1f2940;
+    color:#6ddcff;
+    border-radius:50px;
+    letter-spacing:2px;
+    font-size:13px;
+    margin-bottom:25px;
+
+}
+
+.session-content h2{
+
+    font-size:55px;
+    line-height:1.2;
+    margin-bottom:25px;
+
+}
+
+.session-content p{
+
+    color:#b8bfd0;
+    line-height:1.8;
+    font-size:18px;
+    margin-bottom:40px;
+
+}
+
+.stats{
+
+    display:flex;
+    gap:25px;
+    margin-bottom:45px;
+
+}
+
+.stat-box{
+
+    background:#161d33;
+    padding:25px;
+    width:150px;
+    border-radius:15px;
+    text-align:center;
+
+}
+
+.stat-box h3{
+
+    font-size:34px;
+    color:#58d7ff;
+    margin-bottom:8px;
+
+}
+
+.stat-box span{
+
+    color:#cfd5e4;
+    font-size:15px;
+
+}
+
+.btn{
+
+    padding:18px 40px;
+    border:none;
+    border-radius:8px;
+    background:#4f7cff;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#2d63ff;
+
+}
+
+.session-image{
+
+    width:50%;
+    position:relative;
+
+}
+
+.session-image img{
+
+    width:100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius:20px;
+    display:block;
+    box-shadow:0 30px 60px rgba(0,0,0,.35);
+
+}
+
+.floating-card{
+
+    position:absolute;
+    bottom:30px;
+    left:-40px;
+
+    width:260px;
+
+    background:rgba(18,25,44,.95);
+
+    backdrop-filter:blur(10px);
+
+    padding:20px;
+
+    border-radius:15px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.floating-card h4{
+
+    margin-bottom:10px;
+    color:#61e3ff;
+
+}
+
+.floating-card p{
+
+    margin-bottom:8px;
+    font-size:18px;
+
+}
+
+.floating-card span{
+
+    color:#c4cad8;
+    font-size:14px;
+
+}
+/* ========= ChatGpt end========= */
