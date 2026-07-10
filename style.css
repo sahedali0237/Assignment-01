@@ -124,8 +124,8 @@ body {
 .card_body div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 15px;
+    /* justify-content: space-between; */
+    gap: 12px;
     border: 0.5px solid #e4e6eb;
     border-radius: 10px;
     overflow: hidden;
@@ -141,7 +141,7 @@ body {
 
 }
 
-.card_body div p,
+.card_body .card_fst p,
 h3 {
     padding-left: 15px;
 }
