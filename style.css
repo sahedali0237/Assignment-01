@@ -90,15 +90,17 @@ body {
     color: #b8b4b4;
 }
 
-.hero_btn{
+.hero_btn {
     padding-top: 200px;
 }
-#card_container{
+
+#card_container {
     padding: 80px 8%;
     background-color: #fff;
-    
+
 }
-#card_container h1{
+
+#card_container h1 {
     text-align: center;
     padding-bottom: 50px;
 }
@@ -113,6 +115,7 @@ body {
 
 
 }
+
 .card_body div {
     display: flex;
     flex-direction: column;
@@ -124,17 +127,106 @@ body {
     border-radius: 15px;
     height: 450px;
 }
-.card_body img{
+
+.card_body img {
     width: 100%;
     height: 300px;
     object-fit: cover;
     display: block;
-    
+
 }
-.card_body div p, h3{
+
+.card_body div p,
+h3 {
     padding-left: 15px;
 }
-.card_p{
+
+.card_p {
     color: #1c4ed9;
 }
 
+#price_card {
+    padding: 30px 8%;
+}
+
+.card_title {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.card_title p {
+    padding-top: 20px;
+    color: #575757;
+}
+
+.card_pricing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 35px;
+    align-items: center;
+}
+
+.card_pricing div {
+    background-color: rgba(248, 242, 242, 0.692);
+    border: 1px solid whitesmoke;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    padding: 15px 8%;
+}
+
+.card_pricing div p,
+h1 {
+    padding-bottom: 1rem;
+}
+
+.card_pricing div ul {
+    margin-top: 10px;
+
+}
+
+.card_pricing div ul li {
+    list-style: disc;
+    padding: 5px;
+
+}
+
+.pro_p {
+    color: #1c4ed9;
+}
+
+.Standard {
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+    padding: 15px 15vh;
+    background-color: #fff;
+    border: 1px solid #1c4ed9;
+    color: #1c4ed9;
+    border-radius: 50px;
+}
+
+.Standard:hover {
+    box-shadow: 10px 10px 10px 5px rgba(28, 78, 217, 0.7);
+    transition: 0.6s;
+}
+
+.recommended {
+    background-color: #0d1a29 !important;
+    color: #cfd1d4;
+}
+
+.pro {
+    background-color: #1c4ed9;
+    color: white;
+    padding: 15px 15vh;
+    margin-left: 20px;
+}
+
+
+.team {
+    margin-left: 20px;
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
